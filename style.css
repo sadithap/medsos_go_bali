@@ -22,21 +22,19 @@ body{
 	}
 }
 
-@media only screen and (max-width: 1024px){
-	.container{
-		width: 80%;
-		padding: 2% 1%;
-		top: 50%;
-		left: 50%;
-		position: absolute;
-		transform: translate(-50%,-50%);
-		background: #660000;
-		border-radius: 10px;
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-	}
+.container{
+	width: 80%;
+	padding: 2% 1%;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: #660000;
+	border-radius: 10px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .medsos{
@@ -50,7 +48,7 @@ body{
 }
 
 .medsos:hover{
-	background: #660000;
+	background: #FE7C7C;
 }
 
 .img{
