@@ -1,0 +1,66 @@
+body{
+    background: #B30000;
+	color: #fff;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+
+@media only screen and (min-width: 1025px){
+	.container{
+		width: 40%;
+		padding: 2% 1%;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		background: #660000;
+		border-radius: 10px;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+	.container{
+		width: 80%;
+		padding: 2% 1%;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		background: #660000;
+		border-radius: 10px;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+}
+
+.medsos{
+	width: 90%;
+    background: #B30000;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+	font-size: 15px;
+}
+
+.medsos:hover{
+	background: #660000;
+}
+
+.img{
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+#ket{
+    visibility: hidden;
+}
